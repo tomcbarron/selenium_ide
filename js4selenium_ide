@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://************.com/" />
+<title>commonly used js</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">commonly used js</td></tr>
+</thead><tbody>
+<tr>
+	<td>store</td>
+	<td>javascript{['Josephine','Art','Lenna','Donette','Simona','Mitsue','Leota','Sage','Kris','Minna','Abel','Kiley','Graciela','Cammy','Mattie','Meaghan','Gladys','Yuki','Fletcher','Bette','Veronika','Willard','Maryann','Alisha','Allene','Chanel','Ezekiel','Willow','Bernardo','Ammie','Francine','Ernie','Albina','Alishia','Solange','Jose','Rozella','Valentine','Kati','Youlanda'][Math.floor(Math.random()*40)]}</td>
+	<td>randomFirstName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{['Josephine','Art','Lenna','Donette','Simona','Mitsue','Leota','Sage','Kris','Minna','Abel','Kiley','Graciela','Cammy','Mattie','Meaghan','Gladys','Yuki','Fletcher','Bette','Veronika','Willard','Maryann','Alisha','Allene','Chanel','Ezekiel','Willow','Bernardo','Ammie','Francine','Ernie','Albina','Alishia','Solange','Jose','Rozella','Valentine','Kati','Youlanda'][Math.floor(Math.random()*40)]}</td>
+	<td>randomFirstName2</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{['Darakjy','Venere','Paprocki','Foller','Morasca','Tollner','Dilliard','Wieser','Marrier','Amigon','Maclead','Caldarera','Ruta','Albares','Poquette','Garufi','Rin','Whobrey','Flosi','Gecko','Inouye','Kolmetz','Royster','Slusarski','Iturbide','Caudy','Chui','Kusko','Figeroa','Corrio','Vocelka','Stenseth','Glick','Sergi','Shinko','Stockham','Ostrosky','Gillian','Rulapaugh','Schemmer'][Math.floor(Math.random()*40)]}</td>
+	<td>randomName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{['Darakjy','Venere','Paprocki','Foller','Morasca','Tollner','Dilliard','Wieser','Marrier','Amigon','Maclead','Caldarera','Ruta','Albares','Poquette','Garufi','Rin','Whobrey','Flosi','Gecko','Inouye','Kolmetz','Royster','Slusarski','Iturbide','Caudy','Chui','Kusko','Figeroa','Corrio','Vocelka','Stenseth','Glick','Sergi','Shinko','Stockham','Ostrosky','Gillian','Rulapaugh','Schemmer'][Math.floor(Math.random()*40)]}</td>
+	<td>randomName2</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>eval(Math.floor(Math.random()*99));</td>
+	<td>randomTwoDigits</td>
+</tr>
+<tr>
+	<td>store</td>
+	<!-- replace the 'mygmail' with a valid gmail address for testing email being sent-->
+	<td>mygmail+${randomFirstName}.${randomName}${randomTwoDigits}@gmail.com</td>
+	<td>randomEmail</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{['Brighton','Bridgeport','Anchorage','Hamilton','Ashland','Columbia','San Jose','Twin Falls','Betteville','Kulpsville','Middle Island','Lagrande','Chagrin Falls','Laredo','Marietta','Mc Minnville','Milwaukee','Taylor','Rockford','Aston','San Jose','Irving','Albany','Middlesex','Stevens Point','Shawnee','Easton','Scranton','Conroe','Columbus','Las Cruces','Ridgefield Park','Dunellen','York','Metairie','Newville','Camarillo','San Antonio','Abilene','Prineville'][Math.floor(Math.random()*40)]}</td>
+	<td>randomCity</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>javascript{['Colorado','Montana','Arizona','New Mexico','Arkansas','Kansas','Utah','Wyoming','Nebraska','Oklahoma'][Math.floor(Math.random()*10)]}</td>
+	<td>randomState</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>eval(Math.floor(Math.random()*9999999));</td>
+	<td>randomAmount</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
